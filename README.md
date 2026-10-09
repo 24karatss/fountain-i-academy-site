@@ -66,8 +66,8 @@ Every item below is showcase copy written for the prototype. Search for the text
 1. **Forms.** There is no backend. `js/main.js` turns each form submission into a pre-filled WhatsApp message to 0810 011 9066. To send to email or a CRM instead, replace the submit handler, for example with Formspree, Web3Forms, or a Vercel serverless function (`/api/enquiry`). Both forms carry `data-whatsapp`.
 2. **Map.** The Admissions map is a styled placeholder. Swap the box in `admissions.html#enquire` for a Google Maps embed iframe of Tanke Iledu.
 3. **Head of School photo.** Replace the placeholder inside the arch frame on `about.html#head` with an `<img>` (object-fit: cover). The arch is a CSS mask, so any portrait is cut to the shape.
-4. **Hero video.** `hero.mp4` is compressed to ~1.4 MB (1280px, H.264) and is not downloaded with the page: it loads on first hover/tap, or quietly after load on fast desktop connections. The still image (`hero.webp`) shows until then.
-5. **Images.** All photos and the logo are WebP (20–75 KB each); below-the-fold images lazy-load. An SVG logo from the designer would be smaller still.
+4. **Hero video.** `hero.mp4` is compressed to ~1.4 MB (1280px, H.264) and is not downloaded with the page: on desktop it starts shortly after the page finishes loading; on phones and slow connections it loads only when the play button is tapped. The still image (`hero.webp`) shows until then.
+5. **Images.** Photos are WebP at full resolution (75–180 KB each), the logo is lossless WebP (11 KB); below-the-fold images lazy-load. An SVG logo from the designer would be smaller still.
 6. **Analytics** if wanted (Vercel Analytics is one switch in the project settings).
 
 ## Design tokens
