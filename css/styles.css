@@ -272,4 +272,12 @@ body.menu-open .menu-btn{position:fixed;top:24px;right:24px;z-index:60}
 /* The rotating orbit's square box pokes past the screen at 45°; never let anything pan the page sideways */
 html,body{overflow-x:clip}
 #overview{overflow-x:clip}
-.orbit .spin{contain:paint}
+
+/* Orbit motion without rotating text: circles travel round the ring but are never rotated themselves, so text stays crisp */
+@property --rot{syntax:'<angle>';inherits:true;initial-value:0deg}
+@keyframes orbrot{to{--rot:360deg}}
+.orbit{animation:orbrot 90s linear infinite}
+.orbit .spin,.orbit .nin{animation:none!important}
+.orbit .node{transform:rotate(calc(var(--a) + var(--rot,0deg))) translateY(-36cqw) rotate(calc((var(--a) + var(--rot,0deg)) * -1))}
+.orbit:hover,.orbit:focus-within{animation-play-state:paused}
+@media (prefers-reduced-motion:reduce){.orbit{animation:none}}
