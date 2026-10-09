@@ -268,3 +268,8 @@ body.menu-open .menu-btn{position:fixed;top:24px;right:24px;z-index:60}
   .fa [style*="repeat(auto-fit"]{grid-template-columns:minmax(0,1fr) !important}
   .row{flex-wrap:wrap}
 }
+
+/* The rotating orbit's square box pokes past the screen at 45°; never let anything pan the page sideways */
+html,body{overflow-x:clip}
+#overview{overflow-x:clip}
+.orbit .spin{contain:paint}
