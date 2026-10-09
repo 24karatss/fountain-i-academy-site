@@ -29,11 +29,10 @@
   function loadVideo(){ if(vid&&!vid.src&&vid.dataset.src){ vid.src=vid.dataset.src; vid.preload='auto'; vid.load(); } }
   function playVideo(){ loadVideo(); if(vid&&!reduce){ var p=vid.play(); if(p&&p.catch) p.catch(function(){}); } }
   if(vid&&hero){
-    hero.addEventListener('mouseenter',playVideo);
-    hero.addEventListener('mouseleave',function(){ if(!hero.classList.contains('playing')) vid.pause(); });
+    hero.addEventListener('mouseover',function(){ if(vid.paused) playVideo(); });
     var desktop=window.matchMedia('(min-width: 1101px) and (hover: hover)').matches;
     if(desktop&&!conn.saveData&&!/2g/.test(conn.effectiveType||'')){
-      window.addEventListener('load',function(){ setTimeout(loadVideo,1500); });
+      window.addEventListener('load',function(){ setTimeout(playVideo,1200); });
     }
   }
   if(ctl&&hero){
