@@ -83,6 +83,7 @@ a:hover{color:#55554f}
 .fld{display:flex;flex-direction:column;gap:8px;font-size:14px;font-weight:600;color:#2A0A14}
 .fld input,.fld select{min-height:52px;border:1px solid #E2D2D7;border-radius:14px;padding:0 16px;font-size:16px;font-family:inherit;background:#ffffff;color:#2A1A1F;box-sizing:border-box}
 .fld input,.fld select,.fld textarea{min-height:52px;border:1px solid #E2D2D7;border-radius:14px;padding:12px 16px;font-size:16px;font-family:inherit;background:#ffffff;color:#2A1A1F;box-sizing:border-box}
+.fld textarea{resize:vertical;min-height:140px;max-height:320px}
 
 /* ---------- Production additions (not in the design file) ---------- */
 html{scroll-behavior:smooth}
