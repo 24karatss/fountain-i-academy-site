@@ -54,7 +54,7 @@ Every item below is showcase copy written for the prototype. Search for the text
 - Founding story, Vision and Mission (`about.html`)
 - Weekend Islamiyyah times (Sat & Sun 9:00am–12:00pm), fee (₦25,000 per term), age bands (5–8, 9–12)
 - Islamiyyah FAQ answers (hifz tracking, what to bring, holidays)
-- Admissions: assessment details, documents list, transport answer, 10% sibling discount
+- Admissions: assessment details, documents list, transport answer, scholarships answer
 - Home FAQ: WAEC/NECO mention for Secondary
 - Academics "Subjects at a glance" table (Early Years Qur'an/Arabic entries, Secondary Global Perspectives)
 - Age ranges on Home programme cards (2–5, 5–11) and Crèche / Nursery naming
