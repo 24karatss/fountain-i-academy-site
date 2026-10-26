@@ -282,3 +282,8 @@ html,body{overflow-x:clip}
 .orbit .node{transform:rotate(calc(var(--a) + var(--rot,0deg))) translateY(-36cqw) rotate(calc((var(--a) + var(--rot,0deg)) * -1))}
 .orbit:hover,.orbit:focus-within{animation-play-state:paused}
 @media (prefers-reduced-motion:reduce){.orbit{animation:none}}
+
+/* Header links: centre icons on the cap height of the uppercase labels */
+.hdr-right a[data-portal]>svg:first-child{transform:translateY(-.9px)}
+.hdr-right a[data-portal]>svg:last-child{transform:translateY(-.5px)}
+.hdr-right a[href="admissions.html"]>svg{transform:translateY(-1.5px)}
