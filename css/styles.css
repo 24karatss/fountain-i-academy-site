@@ -373,3 +373,6 @@ html,body{overflow-x:clip}
   *,*::before,*::after{animation-duration:.01ms !important;animation-delay:0ms !important;transition-duration:.01ms !important;transition-delay:0ms !important}
   .rv{opacity:1;transform:none}
 }
+
+/* Arch cards in a row share the tallest card's height */
+.mihrab{align-self:stretch}
