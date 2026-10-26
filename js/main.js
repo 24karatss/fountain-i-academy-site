@@ -125,9 +125,7 @@
       d.open=false; var shutH=d.getBoundingClientRect().height;
       d.open=true; d.style.overflow='hidden';
       if(!opening) d.classList.add('closing');
-      var body=[].slice.call(d.children).filter(function(c){return c!==sum;});
       d._a=d.animate({height:[from+'px',(opening?openH:shutH)+'px']},{duration:opening?420:320,easing:'cubic-bezier(.2,.7,.2,1)'});
-      body.forEach(function(b){ b.animate({opacity:opening?[0,1]:[1,0],transform:opening?['translateY(-6px)','none']:['none','translateY(-4px)']},{duration:opening?380:220,easing:'ease-out',fill:'none'}); });
       d._a.onfinish=function(){ d._a=null; d.style.overflow=''; if(!opening){ d.open=false; d.classList.remove('closing'); } };
       d._a.oncancel=function(){ d.style.overflow=''; };
     });
