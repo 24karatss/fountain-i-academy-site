@@ -317,15 +317,6 @@ html,body{overflow-x:clip}
 .hdr-right a{transition:opacity .2s,color .2s}
 .hdr-right a:hover{opacity:.85}
 
-/* Cards lift on hover */
-.prog,.lift{transition:transform .45s var(--ease),box-shadow .45s var(--ease)}
-.prog:hover,.lift:hover{transform:translateY(-4px);box-shadow:0 22px 48px rgba(42,10,20,.1)}
-.mihrab{transition:transform .45s var(--ease)}
-.mihrab:hover{transform:translateY(-6px)}
-.mihrab svg.mh path{transition:stroke .3s}
-.mihrab:hover svg.mh path{stroke:#8A1F3D}
-.glance tbody tr{transition:background-color .2s}
-.glance tbody tr:hover{background:#FBF7F8}
 
 /* Navigation dropdown: eased, items cascade in */
 .mnav .dd-menu{transition:opacity .25s var(--ease),transform .3s var(--ease-out),visibility .25s}

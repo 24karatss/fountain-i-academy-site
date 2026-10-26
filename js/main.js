@@ -111,8 +111,6 @@
     els.forEach(function(el){ io.observe(el); });
   }
 
-  // Cards that should lift on hover
-  document.querySelectorAll('.fa [style*="border-radius:22px"],.fa [style*="border-radius:24px"]').forEach(function(el){ if(!el.closest('form')) el.classList.add('lift'); });
 
   // Accordions open and close smoothly
   function accordion(d){
