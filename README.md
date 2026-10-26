@@ -45,19 +45,14 @@ vercel --prod   # production
 ```
 Then add the school's domain under **Project → Settings → Domains** and update the domain in `sitemap.xml` and `robots.txt`.
 
-## Sample content to confirm before launch
+## Content to confirm before launch
 
-Every item below is showcase copy written for the prototype. Search for the text to find it.
+Most copy now comes from the proprietress's answers (October 2026). Still unconfirmed:
 
-- Email `info@fountainiacademy.com` (all footers) and the domain in `sitemap.xml`
-- Head of School name **Mrs. Aisha Abdulsalam**, her welcome message, and the photo placeholder (`about.html#head`)
-- Founding story, Vision and Mission (`about.html`)
-- Weekend Islamiyyah times (Sat & Sun 9:00am–12:00pm), fee (₦25,000 per term), age bands (5–8, 9–12)
-- Islamiyyah FAQ answers (hifz tracking, what to bring, holidays)
-- Admissions: assessment details, documents list, transport answer, scholarships answer
-- Home FAQ: WAEC/NECO mention for Secondary
-- Academics "Subjects at a glance" table (Early Years Qur'an/Arabic entries, Secondary Global Perspectives)
-- Age ranges on Home programme cards (2–5, 5–11) and Crèche / Nursery naming
+- A welcome message from the Head of School, and her photo (`about.html#head`)
+- Weekday madrasa fees (the figures supplied don't add up yet) and Islamiyyah class times
+- Islamiyyah FAQ answers on what to bring and school holidays
+- Secondary (JSS 1 to SS 3) subjects and facilities
 - Social links (Facebook, Instagram, YouTube) are `#`
 - Portal Login and Admin login are placeholders (`data-portal` shows a "coming soon" alert). Replace `href="#portal"` with the portal URL.
 
