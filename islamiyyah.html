@@ -11,7 +11,7 @@
 <meta name="theme-color" content="#3A0A1A">
 <link rel="icon" type="image/png" href="assets/img/favicon.png?v=2ff5b57e">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&amp;family=Cinzel:wght@500;600&amp;family=DM+Sans:wght@400;500;600&amp;family=Lora:ital,wght@0,500;0,600;1,500&amp;display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/styles.css?v=ad4deb15">
+<link rel="stylesheet" href="css/styles.css?v=fa332e03">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -132,12 +132,13 @@
 </div>
 <div style="flex:1.4 1 520px;min-width:0">
 <form data-whatsapp style="background:#F9F6F7;border-radius:26px;padding:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px">
+<label class="fld">Programme<select><option>Weekend Islamiyyah</option><option>Weekday Madrasa</option></select></label>
 <label class="fld">Parent / guardian name<input type="text"></label>
 <label class="fld">Phone (WhatsApp)<input type="tel"></label>
 <label class="fld">Child's name<input type="text"></label>
-<label class="fld">Child's age<input type="number"></label>
-<label class="fld">Current school<input type="text"></label>
+<label class="fld">Child's age<input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="2"></label>
 <label class="fld">Qur'an level<select><option>Beginner</option><option>Can read the Qur'an</option><option>Memorising</option></select></label>
+<label class="fld" style="grid-column:1/-1">Current school<input type="text"></label>
 <div style="grid-column:1/-1"><button class="pill" type="submit" style="background:#8E1538;color:#ffffff">Submit Registration</button></div>
 </form>
 <p style="margin:20px 0 0;padding:0 8px;font-size:16px;line-height:1.7;color:#5A4A4F">For more enquiries, call <a class="link" href="tel:+2348100119066" style="min-height:auto;display:inline;white-space:nowrap">0810 011 9066</a>, WhatsApp <a class="link" href="https://wa.me/2348061714270" style="min-height:auto;display:inline;white-space:nowrap">0806 171 4270</a> or visit us at No. 26, Tanke Iledu, Ilorin.</p>
@@ -220,6 +221,6 @@
 
 </div>
 </div>
-<script src="js/main.js?v=318c5aa1" defer></script>
+<script src="js/main.js?v=d3fb0a9b" defer></script>
 </body>
 </html>
