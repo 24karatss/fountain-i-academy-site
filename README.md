@@ -50,10 +50,10 @@ Then add the school's domain under **Project → Settings → Domains** and upda
 Most copy now comes from the proprietress's answers (October 2026). Still unconfirmed:
 
 - A welcome message from the Head of School, and her photo (`about.html#head`)
-- Weekday madrasa fees (the figures supplied don't add up yet) and Islamiyyah class times
+- Weekday madrasa uniform figure (site uses ₦30,000 for two, which makes her ₦386,500 total add up) and Islamiyyah class times
 - Islamiyyah FAQ answers on what to bring and school holidays
 - Secondary (JSS 1 to SS 3) subjects and facilities
-- Social links (Facebook, Instagram, YouTube) are `#`
+- Social links: the footer "Follow us" column is removed until the school has accounts
 - Portal Login and Admin login are placeholders (`data-portal` shows a "coming soon" alert). Replace `href="#portal"` with the portal URL.
 
 ## Things a developer needs to wire up
